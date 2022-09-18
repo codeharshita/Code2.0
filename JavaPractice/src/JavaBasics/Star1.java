@@ -1,4 +1,4 @@
-package patterns;
+package JavaBasics;
 
 public class Star1 {
 
