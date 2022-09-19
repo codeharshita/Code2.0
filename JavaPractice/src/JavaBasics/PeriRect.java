@@ -12,7 +12,9 @@ public class PeriRect {
 		
 		int res = 2*(n+m);
 		System.out.println("The perimeter of the rectangle is "+ res);
+		sc.close();
 
 	}
 
 }
+	
