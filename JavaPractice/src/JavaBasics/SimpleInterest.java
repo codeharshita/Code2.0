@@ -14,6 +14,7 @@ public class SimpleInterest {
 		
 		double res = p*r*t/100;
 		System.out.println("The simple intrest is " + res);
+		sc.close();
 	}
 
 }
