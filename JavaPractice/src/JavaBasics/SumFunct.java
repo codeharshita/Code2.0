@@ -4,8 +4,8 @@ import java.util.*;
 public class SumFunct {
 	
 	public static int printSum(int a, int b) {
-		int c = a+b;
-		return c;
+		int c = a+b;  
+		return c;  //return a+b;
 	}
 
 	public static void main(String[] args) {
