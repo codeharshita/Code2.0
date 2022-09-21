@@ -16,7 +16,7 @@ public class SumFunct {
 		int b = sc.nextInt();
 		
 		System.out.println("The sum is: "+ printSum(a,b));
-		
+		sc.close();
 
 	}
 
