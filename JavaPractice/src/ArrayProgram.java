@@ -29,8 +29,6 @@ public class ArrayProgram {
 		}
 		
 		}
-
-	int sum =0;
 		
 		
 		
