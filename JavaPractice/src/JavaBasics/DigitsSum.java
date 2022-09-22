@@ -5,6 +5,7 @@ import java.util.*;
  * <h1>Sum of Digits of a Number</h1>
  * The DigitsSum program implements an application that adds the digits of a number 
  * where the number is provided by the user.
+ * 
  */
 
 public class DigitsSum {
