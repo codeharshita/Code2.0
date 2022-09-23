@@ -20,6 +20,7 @@ public class Star5 {
 		  }
 		}
 		System.out.println();
+		sc.close();
 	}
 
 	}
