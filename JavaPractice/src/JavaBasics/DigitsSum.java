@@ -37,6 +37,7 @@ public class DigitsSum {
 		//Method calling
 		System.out.println("The answer is "+ sumOfDigits(number));
 		sc.close();
+		//Program ends
 
 	}
 
