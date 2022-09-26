@@ -3,8 +3,8 @@ import java.util.*;
 
 public class PeriRect {
 
-	public static int calcPeri(int m, int n) {
-		int result = 2*(m+n);
+	public static int calcPeri(int length, int breadth) {
+		int result = 2*(length+breadth);
 		return result;
 		
 	}
@@ -12,12 +12,12 @@ public class PeriRect {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the length");
-		int n = sc.nextInt();
+		int length = sc.nextInt();
 		System.out.println("Enter the breadth");
-		int m = sc.nextInt();
+		int breadth = sc.nextInt();
 		
 		
-		System.out.println("The perimeter of the rectangle is "+ calcPeri(m,n));
+		System.out.println("The perimeter of the rectangle is "+ calcPeri(length,breadth));
 		sc.close();
 
 	}
