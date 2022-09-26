@@ -1,7 +1,13 @@
 package JavaBasics;
 import java.util.Scanner;
 
+
 public class SimpleInterest {
+	
+	public static  int calcSimpleIntrest(double p, float r,float t) {
+		double res = p*r*t/100;
+		return (int) res;
+	}
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in); 
@@ -12,8 +18,8 @@ public class SimpleInterest {
 		System.out.println("Enter time period");
 		float t = sc.nextFloat();
 		
-		double res = p*r*t/100;
-		System.out.println("The simple intrest is " + res);
+		
+		System.out.println("The simple intrest is " + calcSimpleIntrest(p,r,t));
 		sc.close();
 	}
 
