@@ -3,6 +3,12 @@ import java.util.*;
 
 public class PeriRect {
 
+	public static int calcPeri(int m, int n) {
+		int result = 2*(m+n);
+		return result;
+		
+	}
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the length");
@@ -10,8 +16,8 @@ public class PeriRect {
 		System.out.println("Enter the breadth");
 		int m = sc.nextInt();
 		
-		int res = 2*(n+m);
-		System.out.println("The perimeter of the rectangle is "+ res);
+		
+		System.out.println("The perimeter of the rectangle is "+ calcPeri(m,n));
 		sc.close();
 
 	}
