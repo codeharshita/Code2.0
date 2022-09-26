@@ -12,7 +12,7 @@ public class VowelConsonant {
 	 * This methodis used to print or differentiate 
 	 * between consonants and vowels of a character.
 	 * @param character This is an argument which 
-	 * 					is provided by the user.
+	 * 	is provided by the user.
 	 * 
 	 * @return char This returns the character defined ny the user.
 	 * */
