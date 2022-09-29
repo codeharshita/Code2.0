@@ -10,6 +10,8 @@ public class ReverseNumber {
 	 * printReverse is a method to implement the java function.
 	 * 
 	 * @param takes number as an input.
+	 * 
+	 * 
 	 * @return returns integer data type.
 	 * */
 	
