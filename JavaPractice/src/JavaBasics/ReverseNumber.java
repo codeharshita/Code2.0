@@ -1,7 +1,17 @@
 package JavaBasics;
 import java.util.*;
 
+
+ // ReverseNumber is a java programs which implements the reverse number.
+ 
 public class ReverseNumber {
+	
+	/**
+	 * printReverse is a method to implement the java function.
+	 * 
+	 * @param takes number as an input.
+	 * @return returns integer data type.
+	 * */
 	
 	public static int printReverse (int number) {
 		
@@ -20,7 +30,7 @@ public class ReverseNumber {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number");
 		int number = sc.nextInt();
-		
+		//Method Calling.
 		System.out.println("The reversed number is " + printReverse(number));
 		
 		sc.close();
