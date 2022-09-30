@@ -1,6 +1,6 @@
 package JavaBasics;
 
-// New program
+// New program code
 
 public class ProgramPP {
 
