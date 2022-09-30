@@ -19,6 +19,7 @@ public class CubeSum {
 	            num = num / 10;
 	        }
 	        System.out.println(cubeSum);
+	        
 
 
 	}
@@ -26,4 +27,3 @@ public class CubeSum {
 }
 
 // Doubt-  Answer should be 126
-// I am getting 217?? How??
