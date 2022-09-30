@@ -5,7 +5,7 @@ package JavaBasics;
 
 public class CubeSum {
 	
-	
+	// 
 
 	public static void main(String[] args) {
 		 int num = 51;
