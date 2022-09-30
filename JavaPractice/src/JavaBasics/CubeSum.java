@@ -1,7 +1,7 @@
 // Write a java program to print the sum of cube of digits.
 
 package JavaBasics;
-
+// CubeSum is a classname.
 
 public class CubeSum {
 	
