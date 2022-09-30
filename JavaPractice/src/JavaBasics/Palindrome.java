@@ -32,7 +32,7 @@ public class Palindrome {
 		}while(number != 0);
 		
 		
-		----------------------------------------------------------------
+		
 		//Used while loop.
 		//Logic-2.
 		
@@ -41,7 +41,7 @@ public class Palindrome {
 		reverse = reverse* 10 + remainder;
 		number = number/10;
 		}
-		-----------------------------------------------------------------
+		
 		if(reverse == temp) {	
 				System.out.println("It's a Palindrome number.");
 		}else {
