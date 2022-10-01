@@ -8,7 +8,7 @@ public class Logic1 {
 	
 		while(num != 0) {
 			int r = num % 10;
-			num= num /10;
+			num = num /10;
 			cubeSum = (int) ((int) cubeSum + Math.pow(r, 3));
 		
 		}
