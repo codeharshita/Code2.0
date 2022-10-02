@@ -8,6 +8,7 @@ public class ArrayBasics {
 		int[] arr = new int[5];
 	 
 	// initilaizing the elements of array.
+		
 	 arr[0]= 1;
 	 arr[1]= 3;
 	 arr[2]= 4;
