@@ -1,20 +1,30 @@
 package JavaBasics;
-//import java.util.*;
+import java.util.*;
 
 public class ArrayPrg1 {
 
 	public static void main(String[] args) {
-		int[] arr = {5,1,6,4,2,7,8}; 
-		int element = 4;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the size");
+		int size = sc.nextInt();
+		int arr[] = new int[size];
 		
-		for(int i = 0; i< arr.length; i++) {
-			
-			if(arr[i] == element) {
-				System.out.println("The element is found at index "+ i);
-			}
-			
+		// For entering the values in the array.
+		for(int i = 0; i<arr.length; i++) {
+			arr[i] = sc.nextInt();
 		}
 		
+		System.out.println("Write the element that you want to search for.");
+		int element = sc.nextInt();
+		 
+		for(int i = 0 ; i<arr.length ; i++) {
+		if(arr[i] == element) {
+		System.out.println(" Element is found at index " + i );
+		break;
+		 }
+		}
+		
+		sc.close();
 
 	}
 
