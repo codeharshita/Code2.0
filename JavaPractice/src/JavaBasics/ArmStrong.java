@@ -10,8 +10,9 @@ public class ArmStrong {
 		
 		while(number != 0 ) {
 			int remainder = number % 10;
-			number =  number % 10;
+			number =  number / 10;
 			cubeSum = (int) (cubeSum + Math.pow(remainder, 3));
+			System.out.println(number);
 		}
 		if(temp == cubeSum) {
 			System.out.println(cubeSum + "It's an armstrong number.");
