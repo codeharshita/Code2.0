@@ -1,4 +1,5 @@
 // Syntax checking for arrays.
+import java.util.*;
 public class Practise1 {
 	
 
@@ -11,8 +12,13 @@ public class Practise1 {
 		System.out.println();
 		
 		for(int i = 0; i<arr.length; i++) {
-			System.out.print( " "+ arr[i] );
-	 }		
+			System.out.print( " "+ arr[i]);
+	 }
+		System.out.println();
+		
+		//for(int i = 0; i<arr.length; i++) {
+			System.out.println(Arrays.toString(arr));
+		//}
 
 	}
 }
