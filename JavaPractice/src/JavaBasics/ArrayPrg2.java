@@ -10,12 +10,12 @@ public class ArrayPrg2 {
 
 	public static void main(String[] args) {
 		int[] arr = {6,5,4,1,2};
-		int key = 1;
+		int key = 3;
 		boolean isPresent = false;
 		int index = 0;
 		
 		for(int i = 0; i<arr.length; i++) { 
-			if(arr[i] == key) {
+			if(key == arr[i]) {
 				isPresent = true;
 				index =i;
 				break;
@@ -24,10 +24,11 @@ public class ArrayPrg2 {
 		
 		if(isPresent = true) {
 			System.out.println(arr[index]+ " is present at index "+ index);
-		}else {
-			System.out.println("This array element is not present.");
-		}
-
+		}else System.out.println("This array element is not present.");
+		
+		
+		
+		System.out.println(isPresent);
 	}
 
 }
