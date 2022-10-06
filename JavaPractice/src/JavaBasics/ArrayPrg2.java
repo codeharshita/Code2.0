@@ -14,7 +14,7 @@ public class ArrayPrg2 {
 		boolean isPresent = false;
 		int index = 0;
 		
-		for(int i = 0; i<arr.length; i++) {
+		for(int i = 0; i<arr.length; i++) { 
 			if(arr[i] == key) {
 				isPresent = true;
 				index =i;
