@@ -10,11 +10,16 @@ public class CommonArrayElements {
 			
 			for(int j  = 0; j<arr2.length; j++) {
 				if(arr[i]==arr2[j]) {
-			System.out.print(arr[i]+ " "+ "are the commom elements in the array.");		
+					
+			System.out.print(arr[i]+ " " );
+			
 				}
 			
-							}
+			}
+			
 		}
+		System.out.println();
+		System.out.println("These are the common elements in array.");
 
 	}
 
