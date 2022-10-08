@@ -16,8 +16,8 @@ public class MaxElement {
 		Arrays.sort(arr);
 		
 		System.out.println(Arrays.toString(arr));
-		maxElement = arr[10-1];
-		System.out.println("The maximum element is "+ maxElement);
+		maxElement = arr[10-2];
+		System.out.println("The maximum second largest element is "+ maxElement);
 		sc.close();
 		
 		
