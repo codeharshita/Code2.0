@@ -9,6 +9,8 @@ public class Logic3 {
 			System.out.println(B[i]++);
 		}
 		
+		
+		// By using for each we can only read the value.
 		for(int x: B) {
 			System.out.print(x + " ");
 		}
