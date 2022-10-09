@@ -1,3 +1,4 @@
+// Print array elements in descending order.
 import java.util.*;
 public class DescOrder {
 
