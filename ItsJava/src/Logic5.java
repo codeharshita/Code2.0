@@ -1,4 +1,4 @@
-// Logic is to remove the duplicate array elements.
+// Logic is to remove the array elements by considering a value.
 import java.util.*;
 public class Logic5 {
 
