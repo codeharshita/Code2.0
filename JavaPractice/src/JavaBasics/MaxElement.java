@@ -24,3 +24,5 @@ public class MaxElement {
 	}
 
 }
+
+// Time complexity O(nlogn).
