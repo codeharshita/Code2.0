@@ -10,6 +10,7 @@ public class RotateArray {
 			System.out.print(arr[i]+ " ");
 		}
 				arr[arr.length-1]= temp;
+				
 				System.out.println(temp);
 	}
 
