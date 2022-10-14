@@ -11,9 +11,6 @@ public class Logic6Shifting {
 	   			
 	   a[a.length-1] = temp;
 	   System.out.println(temp);
-	   
-	   
-
-	}
+	  }
 
 }
