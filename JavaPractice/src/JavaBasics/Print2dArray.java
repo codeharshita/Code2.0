@@ -35,8 +35,6 @@ public class Print2dArray {
 			
 		}
 		
-		
-		
 		//Give output to the user.
 				System.out.println("The new matrix is: ");
 		for(int i = 0; i<rows; i++) {
