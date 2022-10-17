@@ -19,7 +19,21 @@ public class Print2dArray {
 				arr[i][j]=sc.nextInt();
 			}
 		}
-		//System.out.println("\n");
+		
+		System.out.println("Search for the given number.");
+		int value = 5;
+		
+		for(int i =0; i<rows; i++) {
+			for(int j =0; j<cols; j++) {
+				if(value == arr[i][j]) {
+					System.out.println("Element found at indices "+ "["+i+"]" +"["+ j +"]" );
+					break;
+				}
+			}
+			
+		}
+		
+		
 		
 		//Give output to the user.
 				System.out.println("The new matrix is: ");
@@ -30,7 +44,6 @@ public class Print2dArray {
 			System.out.println("\n");
 			sc.close();
 		}
-		
 		
 		
 	}
