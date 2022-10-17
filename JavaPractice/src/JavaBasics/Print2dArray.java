@@ -21,11 +21,13 @@ public class Print2dArray {
 		}
 		
 		System.out.println("Search for the given number.");
-		int value = 5;
+		int value = sc.nextInt();
+		boolean isPresent = false;
 		
 		for(int i =0; i<rows; i++) {
 			for(int j =0; j<cols; j++) {
 				if(value == arr[i][j]) {
+					isPresent = true;
 					System.out.println("Element found at indices "+ "["+i+"]" +"["+ j +"]" );
 					break;
 				}
