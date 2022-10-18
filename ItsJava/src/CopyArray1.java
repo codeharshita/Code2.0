@@ -14,7 +14,7 @@ class CopyArray1 {
 		int[] source = {2,3,1,4,5};
 		int[] dest = new int[5];
 		
-		for(int i =0; i<source.length;++i) {
+		for(int i =0; i<source.length;i++) {
 			dest[i]= source[i];
 		}
 		System.out.println(Arrays.toString(dest));
