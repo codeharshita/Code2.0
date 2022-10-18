@@ -10,7 +10,9 @@ public class SumArray {
 		
 		// Adding matrix.
 		int [][]sum = new int[rows][cols];
+		// Rows can also be written as arr.length
 		for(int i =0; i<rows; i++) {
+		// Cols can also be written as arr[0].length
 			for(int k =0; k<cols; k++) {
 				sum[i][k]= arr[i][k]+ arr_new[i][k];
 				
