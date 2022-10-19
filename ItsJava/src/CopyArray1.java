@@ -3,7 +3,8 @@ import java.util.Arrays;
 class CopyArray1 {
 	
     public static void main(String[] args) {
-		int[] numbers = {1,2,3,4,5};
+		int[] numbers = {1,2,3,4,5}; 
+		//made new array and stored the previous element in the new array.
 		int[] newArr = numbers;
 		for(int i: newArr) {
 			System.out.print(i + " ");
