@@ -1,4 +1,6 @@
 // Print the greater number from the two numbers.
+import java.util.*;
+
 public class Logic7Methods {
 	
 	
@@ -13,13 +15,15 @@ public class Logic7Methods {
 	}
 
 	public static void main(String[] args) {
-		
-		
-		int x=20, y=15,c;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the two numbers.");
+		int x = sc.nextInt();
+		int y = sc.nextInt();
+		int c;
 		
 		c = maxNumber(x,y);
 		System.out.println(c + " is greatest.");
-		
+		sc.close();
 
 	}
 
