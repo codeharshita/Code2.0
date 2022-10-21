@@ -3,7 +3,11 @@ import java.util.*;
 
 public class Logic7Methods {
 	
-	
+	/** 
+	 * Write static keyword while writing a 
+	 * method as the main execution of 
+	 * the program consist of a static keyword.
+	 * */
 	static int maxNumber(int x, int y) {
 		
 			if(x>y) {
