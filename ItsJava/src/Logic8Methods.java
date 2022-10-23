@@ -17,3 +17,4 @@ public class Logic8Methods {
 	}
 
 }
+// Program ends
