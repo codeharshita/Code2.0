@@ -7,7 +7,7 @@ public class InfiniteLoop {
 	
 		do {
 				System.out.println("Hello Java");
-	}while(true);
+	} while(true);
 
   }
 }
