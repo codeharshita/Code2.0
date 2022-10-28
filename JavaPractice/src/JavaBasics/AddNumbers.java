@@ -17,3 +17,11 @@ public class AddNumbers {
 	}
 
 }
+/**
+ * To access the methods from the class we can 
+ * use static keyword or else we need to 
+ * create an object of that class and then call 
+ * the method using .operator in the main method. 
+ * 
+ */
+ 
