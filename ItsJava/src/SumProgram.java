@@ -2,7 +2,7 @@
 public class SumProgram {
 	
 	//It is a non-static method
-	
+	// Formal argument
 	public int sumNum(int num1, int num2) {
 		return num1+num2; 
 	}
@@ -16,6 +16,7 @@ public class SumProgram {
 		// Object
 		SumProgram sum = new SumProgram();
 		//Method calling using object name.
+		// Actual argument
 		int res = sum.sumNum(3, 2);
 		System.out.println(res + " is the sum ");
 		
