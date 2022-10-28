@@ -15,7 +15,12 @@ public class ScopeInJava {
 	}
 	
 	
-	public static void main(String[] args) { // Block scope-> Variables declared within the block. 
+	public static void main(String[] args) {
+		// Block scope-> Variables declared within the block. 
+		{
+			int m  =10;
+			System.out.println(m);
+		}
 		int a =5; 
 		int b = 6;
 		int c = a+b;
@@ -24,5 +29,6 @@ public class ScopeInJava {
 		System.out.println(add(4,3) + " is the result.");
 	}
 	//int c = a+b; Out of scope(region).
+
 
 }
