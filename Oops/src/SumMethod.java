@@ -2,7 +2,7 @@
 public class SumMethod {
 
 	/**
-	 * Non-static method.
+	 * Non-static method and it contains a local variable sum.
 	 * */
 	public int sumNum(int num1, int num2) { 
 		  return num1+num2;
