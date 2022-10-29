@@ -9,6 +9,13 @@
 public class Bicycle {
 	
 	//field 
+	// static variable because we used stataic keyword before the variable.
+	
+	/**
+	 * Static variables are independent variables
+	 * they can be accessed anywhere inside the class
+	 * it also don't require any object to access it. 
+	 * */
 	public static int wheels = 2;
 	
 	// method.
@@ -17,12 +24,23 @@ public class Bicycle {
 		System.out.println("Stop!");
 	}
 	
+	// It is also known as regular method.
+	void brake() {
+		System.out.println("Apply Break.");
+	}
+	
 
 	public static void main(String[] args) {
 		System.out.println("The bicycle has "+ wheels + " wheels.");
+		Bicycle.stop();
 		stop();
-		//System.out.println(stop());-> not applicable because it is 
-
+		stop();
+		System.out.println();
+		//Accessing the wheels without the object.
+		System.out.println(Bicycle.wheels);
+		Bicycle b = new Bicycle();
+		b.brake();
+		 
 	}
 
 }
