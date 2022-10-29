@@ -1,3 +1,4 @@
+
 package JavaBasics;
 
 import java.util.Scanner;
@@ -5,7 +6,8 @@ import java.util.Scanner;
 public class Circle {
 	
 	public static double printCircumference(int radius) {
-		return 2*Math.PI*radius;
+		//Local Variable is radius because it is declared inside the method.
+		return 2*Math.PI*radius; 
 		
 	}
 
