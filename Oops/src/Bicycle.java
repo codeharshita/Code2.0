@@ -8,7 +8,7 @@
  * */
 public class Bicycle {
 	
-	//field
+	//field 
 	public static int wheels = 2;
 	
 	// method.
