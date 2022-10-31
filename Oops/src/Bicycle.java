@@ -18,7 +18,7 @@ public class Bicycle {
 	 * */
 	public static int wheels = 2;
 	
-	// method.
+	// method
 	//We use static to save memory.
 	public static void stop() {
 		System.out.println("Stop!");
