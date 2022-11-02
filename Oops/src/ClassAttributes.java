@@ -10,6 +10,8 @@ public class ClassAttributes {
 		int res2 = at.y;
 		System.out.println(res + " is the result");
 		System.out.println(res2+ " is the result.");
+		System.out.println(at.x);
+		System.out.println(at.y);
 
 	}
 
