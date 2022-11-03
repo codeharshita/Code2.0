@@ -27,6 +27,17 @@ public class ClassAttributes {
 		System.out.println(at.x + " is the result");
 		System.out.println(res2+ " is the result.");
 		System.out.println(at.x);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		System.out.println(at.y);
 
 	}
