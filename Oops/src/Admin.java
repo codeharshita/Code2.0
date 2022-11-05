@@ -1,5 +1,5 @@
 // seperate class to access in the other class called main.java
-public class Admin {
+public  class Admin {
 
 	//instance variable.
 	String name = "Supriya";
