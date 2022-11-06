@@ -4,8 +4,10 @@
  * and the function/method.
  * */
 class Rectangle{
-	int length;
-	int breadth;
+	
+	// Global variables.
+	public int length;
+	public int breadth;
 	
 	//  method to calculate the area.
 	public int area() {
@@ -25,6 +27,13 @@ class Test2 {
 	int b = 5;
 
 	public static void main(String[] args) {
+		/**
+		 * r is the object reference variable.
+		 * new Rectangle() is the object of Rectangle class created which is stored inside the heap memory of java
+		 * 
+		 * t is the object reference variable.
+		 * new Tesy2() is the object created which is stored inside the heap memory of java
+		 * */
 			Rectangle r = new Rectangle();
 			Test2 t = new Test2();
 			r.length=5;
