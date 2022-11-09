@@ -13,7 +13,9 @@ public class ConstructorConcept {
 	String name;
 	int age;
 	
-	//Yes java follows constructor overloading concept.
+	/* Can we overload constructor?
+	 * Yes java follows constructor overloading concept.
+	 * */
 	
 	public ConstructorConcept() { //0 parameter.
 		System.out.println("Default constructor is called. ");
