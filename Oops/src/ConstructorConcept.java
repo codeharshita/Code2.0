@@ -10,6 +10,7 @@
  * 3>Default constructor. 
  * */
 public class ConstructorConcept {
+	//Global variables or class variables or instance variables.
 	String name;
 	int age;
 	
@@ -23,21 +24,32 @@ public class ConstructorConcept {
 	} 
 	
 	public ConstructorConcept(int i) { // 1 parameter.
-		
+		System.out.println("1 param ");
+		System.out.println(i);
 	}
 	
 	public ConstructorConcept(int i, int j) { // 2 parameter.
-		
+			System.out.println("2 param");
+			System.out.println(i+ " "+ j);
+	}
+	
+	public  ConstructorConcept(String name, int age ) { // local variables
+			this.age = age;//this.classvar=local variable.
+			this.name=name;
 	}
 	
 	
 
 	public static void main(String[] args) {
 		ConstructorConcept cd = new ConstructorConcept();	
-			cd.name="Anupama";
-			cd.age=45;
-		System.out.println(cd.name + " age is "+ cd.age+ " years. ");
-
+		ConstructorConcept obj1 = new ConstructorConcept(10,4);
+		ConstructorConcept obj2 = new ConstructorConcept(6);
+		ConstructorConcept obj3 = new ConstructorConcept("Tony Stark", 43);
+		
+		System.out.println(obj3.name);
+		System.out.println(obj3.age);
+		
+				
 	}
 
 }
