@@ -1,5 +1,5 @@
 // Write a constructor program.
-class Bike {
+public class Bike {
 	
 	String name;
 	int wheels;
