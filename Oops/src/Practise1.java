@@ -1,5 +1,13 @@
 //Java Strings.
 
+/*
+ * A string is a sequence of characters in java.
+ * String is a non-primitive dataType .Instead, they are the 
+ * object of the predefined class named String in java.
+ * 
+ * 
+ * */
+
 public class Practise1 {
 	static String first ="Java";
 	static String second = "Programming";
