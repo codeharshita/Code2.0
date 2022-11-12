@@ -1,5 +1,6 @@
 
   class Subject {
+	  
 	 
      private String subID;
 	 private String name;
@@ -40,6 +41,7 @@
     	 return "\nSubject ID: "+subID+"\nName:"+name+"\nMarks Obtained:"+marksObtain;
      }
      
+  
  }
 
 	 
