@@ -6,6 +6,8 @@ public class CheckStrings {
 		String name2= new String("Java");
 		String name3 = name1;
 		
+		System.out.println(name1.split(name2));
+		
 		
 		//Escape Characters in java -> can be used to put double quotes inside the statements.
 		System.out.println("Hello \"Java\". ");

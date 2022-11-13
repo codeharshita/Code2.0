@@ -4,7 +4,7 @@ public class DemoString {
 	public static void main(String[] args) {
 		String name ="Alex Lee";
 		int age= 34;
-		String subject= "Java Programming";
+		String subject= "Java Programming";//String literal.
 		String subject2="JaVa Programming";
 		String subject3 ="JavA Programming";
 		
@@ -15,6 +15,7 @@ public class DemoString {
 		String secondName=" Pawar";
 		
 		
+		System.out.println(subject);
 		//To concatenate to Strings.
 		String fullName= fName.concat(sName);
 		//You can use .concat method or you can use + method.
