@@ -6,6 +6,11 @@ public class CheckStrings {
 		String name2= new String("Java");
 		String name3 = name1;
 		
+		
+		//Escape Characters in java -> can be used to put double quotes inside the statements.
+		System.out.println("Hello \"Java\". ");
+		System.out.println("This is \"Java Pogramming\". ");
+		
 		//Check whether the two strings are equal or not.
 		// using == opeartor
 		
