@@ -4,6 +4,7 @@ public class CheckStrings {
 	public static void main(String[] args) {
 		String name1 = new String("Java");
 		String name2= new String("Java");
+		String name3 = name1;
 		
 		//Check whether the two strings are equal or not.
 		// using == opeartor
@@ -11,6 +12,9 @@ public class CheckStrings {
 		boolean res = (name1 == name2);
 			System.out.println("Are the strings equal? "+ res); //false
 		// using .equal method.
+			
+		boolean res3 = (name1 == name3);
+		System.out.println("Are the strings equal? "+ res3);
 			
 		boolean res2 = name1.equals(name2);
 		System.out.println("Are the strings equal? "+ res2); //true
