@@ -13,6 +13,8 @@ public class ObjectsArray {
 		Monkey m2 = new Monkey();
 		Monkey m3 = new Monkey();
 		
+		
+		//Array of objects.
 		Monkey[] monkeys = {m1,m2,m3};
 		// To call use for-each loop
 		
