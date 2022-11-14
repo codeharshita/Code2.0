@@ -1,6 +1,6 @@
 //Understanding this keyword.
 /*
- * This is used to refer the current object of the class.
+ * This is used to refer the current object of the class or reference of the current object.
  * It is similar to the object concept.
  * Object is also called using dot operator ,similarly this is also called with the help
  * of dot operator.
