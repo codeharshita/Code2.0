@@ -1,4 +1,4 @@
-//Understanding this keywrord.
+//Understanding this keyword.
 public class KeywordThis {
 	
 	int age;
