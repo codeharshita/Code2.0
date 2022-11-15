@@ -6,9 +6,6 @@ class Circle{
 		return Math.PI*radius*radius;
 	}
 	
-	public Circle() {
-		radius=2;
-	}
 	public double circumference() {
 		return 2*Math.PI*radius;
 	}
@@ -22,9 +19,7 @@ class Circle{
 
 class Cylinder2 extends Circle{
 	public double height;
-	public Cylinder2() {
-		height=2;
-	} 
+	 
 	
 	public double volume() {
 		return Math.PI*radius*radius*height;
@@ -37,14 +32,13 @@ class Cylinder2 extends Circle{
 public class Circle1 {
 
 	public static void main(String[] args) {
-			Circle c1 = new Circle();
-			Cylinder2 c2= new Cylinder2();
-			System.out.println("Area: "+ c1.area()+ "\nCircumference: "+ c1.circumference()
-			+"\nPerimeter: "+c1.perimeter());
 			
-			System.out.println();
-			System.out.println("Volume of Cylinder: "+ c2.volume());
-
+			Cylinder2 c= new Cylinder2();
+			c.radius=5;
+			c.height=4.5;
+			
+			System.out.println("Area of circle: "+ c.area());
+			System.out.println("Volume of cylinder: "+ c.volume());
 	}
 
 }
