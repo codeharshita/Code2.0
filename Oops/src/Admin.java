@@ -4,10 +4,10 @@ public  class Admin {
 	//instance variable.
 	 String name;
 	 String profession;
-	 private int age;
-     private double salary;
-     private int ID;
-     private String email;
+	 private int age;//sensitive data
+     private double salary;//sensitive data
+     private int ID;//sensitive data
+     private String email;//sensitive data
     
     public Admin(String name,String profession) {
     	this.name= name;
