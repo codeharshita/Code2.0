@@ -22,6 +22,9 @@ class Circle{
 
 class Cylinder2 extends Circle{
 	public double height;
+	public Cylinder2() {
+		height=2;
+	} 
 	
 	public double volume() {
 		return Math.PI*radius*radius*height;
@@ -38,6 +41,9 @@ public class Circle1 {
 			Cylinder2 c2= new Cylinder2();
 			System.out.println("Area: "+ c1.area()+ "\nCircumference: "+ c1.circumference()
 			+"\nPerimeter: "+c1.perimeter());
+			
+			System.out.println();
+			System.out.println("Volume of Cylinder: "+ c2.volume());
 
 	}
 
