@@ -1,4 +1,7 @@
 // Concept of multiple classes.
+/*
+ * Data Hiding and Data Encapsuation.
+ * */
  public class Main {
 
 	public static void main(String[] args) {
