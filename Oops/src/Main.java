@@ -2,24 +2,16 @@
  public class Main {
 
 	public static void main(String[] args) {
-		Admin ad = new Admin();
-		User uname= new User();
+		Admin a = new Admin("Samaira","Office admin");
+		System.out.println("Name: "+ a.name+"\nProfession: "+ a.profession);
+		a.setAge(27);
+		a.setEmail("Sam34yji@gmail.com");
+		a.setId(4);
+		a.setSalary(50000);
 		
-		System.out.println("Printing admin details");
-		System.out.println(ad.emailid);
-		System.out.println(ad.name);
-		System.out.println(ad.profession);
-		System.out.println(ad.age);
+		System.out.println("Age: "+a.getAge()+"\nEmail: "+a.getEmail()+"\nID: "+a.getId()+"\nSalary: "+ a.getSalary());
 		
-		System.out.println();
-		System.out.println("Printing user details.");
-		System.out.println(uname.name);
-		System.out.println(uname.location);
-		System.out.println(uname.emailid);
-		System.out.println(uname.id);
-		System.out.println(uname.age);
 		
-
 	}
 
 }
