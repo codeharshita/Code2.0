@@ -1,3 +1,21 @@
+/*Inheritance:-
+ * Means acquiring the properties from the existing class and adding up
+ * with the new features in a new class .
+ * 
+ * It has SuperClass and SubClass.
+ * 		  BaseClass and DerivedClass.
+ * 		  ParentClass and ChildClass.
+ * 
+ * It is a Top Down approach.
+ * 
+ * Specialization is achieved using Inheritance.
+ * 
+ * Inheritance uses the extends keyword to acquire the properties from the existing class.
+ * 
+ * 
+ * */
+
+
 class Circle{
 	
 	public double radius;
@@ -25,24 +43,6 @@ class Cylinder2 extends Circle{
 		return Math.PI*radius*radius*height;
 	}
 }
-
-
-/*Inheritance:-
- * Means acquiring the properties from the existing class and adding up
- * with the new features in a new class .
- * 
- * It has SuperClass and SubClass.
- * 		  BaseClass and DerivedClass.
- * 		  ParentClass and ChildClass.
- * 
- * It is a Top Down approach.
- * 
- * Specialization is achieved using Inheritance.
- * 
- * Inheritance uses the extends keyword to acquire the properties from the existing class.
- * 
- * 
- * */
 
 public class Circle1 {
 
