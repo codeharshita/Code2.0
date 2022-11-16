@@ -1,6 +1,7 @@
 //Constructor Concept in Inheritance
 
 class Parent{
+	
 	public Parent() {
 		System.out.println("Parent Constructor.");
 	}
