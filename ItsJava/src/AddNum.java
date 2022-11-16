@@ -3,7 +3,7 @@
  * Yes, Java supports both call by value and call by reference
  * 
  * Is it possible call by reference in Java?
- * Yes, it is possible with object references.
+ * Yes, it is possible with object references as java doesn't support the concept of pointers.
  */
 public class AddNum {
 	
