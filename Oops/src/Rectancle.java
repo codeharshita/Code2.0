@@ -20,6 +20,10 @@ public class Rectancle {
 		return length*breadth;
 	}
 
+	
+	/*The actual parameters are copied to the formal parameter and then the further execution of 
+	 * the programs start.
+	 * */
 	public static void main(String[] args) {
 		Rectancle r1=new Rectancle(5,2);//actual parameters
 		r1.display();
