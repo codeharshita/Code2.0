@@ -9,7 +9,7 @@ class Fridge{//superclass
 class DigitalFridge extends Fridge{//subclass
 	
 	
-	//Method overriding .
+	//Method overriding . method name and parameters is same in both the classes but functionality is different.
 	@Override
 	public void pressButton() {
 		System.out.println("The freezer is opened by face-lock.");
