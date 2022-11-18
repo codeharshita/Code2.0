@@ -34,5 +34,8 @@ public class MetalFridge {
 		
 
 	}
-
 }
+/*  Reference variable of the parentclass holding the object of the childclass is known as Dynamic method dispatch.
+ * It is also known as run-time polymorphism.
+ * 
+ * */
