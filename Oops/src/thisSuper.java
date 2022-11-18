@@ -16,6 +16,7 @@ class Cuboid extends Rectanckle{
 	
 	Cuboid(int l, int b,int h){
 		//super keyword is used to refer the members of the parent/super class.
+		
 		super(l,b);
 		this.height=h;
 		int x = 20;
