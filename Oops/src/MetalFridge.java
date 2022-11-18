@@ -4,6 +4,9 @@ class Fridge{//superclass
 	public void pressButton() {
 		System.out.println("The freezer is opened by pressing button.");
 	}
+	public void sendFruits() {
+		System.out.println("Send fruits.");
+	}
 }
 
 class DigitalFridge extends Fridge{//subclass
@@ -13,6 +16,10 @@ class DigitalFridge extends Fridge{//subclass
 	@Override
 	public void pressButton() {
 		System.out.println("The freezer is opened by face-lock.");
+	}
+	
+	public void deliver() {
+		System.out.println("Deliver it.");
 	}
 }
 public class MetalFridge {
@@ -26,8 +33,11 @@ public class MetalFridge {
 		Fridge f1 = new Fridge();
 		f1.pressButton();
 		
-		Fridge f2 = new DigitalFridge();// The method of DigitalFridge wii be called.
-		f2.pressButton();
+		System.out.println();
+		
+		Fridge f2 = new DigitalFridge();// The overrided method of DigitalFridge will be called.
+		f2.pressButton();//this is also defined in superclass and subclass.
+		f2.sendFruits();
 		
 			
 		
