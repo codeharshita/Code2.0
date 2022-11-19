@@ -32,7 +32,9 @@ public class OverridingExample {
 		hyundaiVerna.accelerate();
 		hyundaiVerna.changeGear();
 		hyundaiVerna.start();
+		
 		//hyundaiVerna.openRoof();-> is not applicable.
+		//why?-> because object is of childclass but it is referred from parent class variable so only parentclass properties and overriden properties are required.
 		
 		
 
