@@ -22,7 +22,7 @@ class Sub extends Super{
 public class AbstractExample {
 
 	public static void main(String[] args) {
-		Super s1 = new Sub();
+		Super s1 = new Sub();//Dynamic method dispatch.
 		s1.meth1();
 		s1.meth2();
 
