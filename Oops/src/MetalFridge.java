@@ -35,6 +35,8 @@ public class MetalFridge {
 		
 		System.out.println();
 		
+		
+		//Dynamic Method Dispatch.
 		Fridge f2 = new DigitalFridge();// The overrided method of DigitalFridge will be called.
 		f2.pressButton();//this is also defined in superclass and subclass.
 		f2.sendFruits();
