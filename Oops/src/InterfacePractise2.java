@@ -59,12 +59,12 @@ class SmartPhone extends Phone implements ICamera,MusicPlayer{
 public class InterfacePractise2 {
 
 	public static void main(String[] args) {
-		MusicPlayer m = new SmartPhone();
+		MusicPlayer m = new SmartPhone();// restricted till MusicPlayer only.
 		m.pause();
 		m.play();
 		m.next();
 		
-		ICamera c = new SmartPhone();
+		ICamera c = new SmartPhone();//Restricted till ICamera only.
 		c.shoot();
 		c.record();
 		c.vlog();
