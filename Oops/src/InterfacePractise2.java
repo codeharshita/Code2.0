@@ -9,7 +9,7 @@ class Phone{
 }
 //Interface class.
 interface ICamera{
-	void shoot();
+void shoot();
 	void record();
 	void vlog();
 }
