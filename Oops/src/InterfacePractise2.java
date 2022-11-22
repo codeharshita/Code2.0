@@ -1,4 +1,4 @@
-
+//Concrete class
 class Phone{
 	void call() {
 		System.out.println("Phone is calling");
@@ -7,7 +7,7 @@ class Phone{
 		System.out.println("Able to sms.");
 	}
 }
-
+//Interface class.
 interface ICamera{
 	void shoot();
 	void record();
@@ -19,7 +19,8 @@ interface MusicPlayer{
 	void pause();
 	void next();
 }
-
+//extends -> Inheritance
+//implements ->Abstraction.
 class SmartPhone extends Phone implements ICamera,MusicPlayer{
 	void videoCall() {
 		System.out.println("VideoCalling");
@@ -27,23 +28,27 @@ class SmartPhone extends Phone implements ICamera,MusicPlayer{
 	void playGame() {
 		System.out.println("Play Game.");
 	}
-	
+	@Override
 	public void shoot() {
 		System.out.println("The camera is shooting the video.");
 	}
+	@Override
 	public void record() {
 		System.out.println("The camera is recording the video.");
 	}
+	@Override
 	public void vlog() {
 		System.out.println("Vlogging feature is awesome.");
 	}
-	
+	@Override
 	public void play() {
 		System.out.println("Audio is playing in the background.");
 	}
+	@Override
 	public void pause() {
 		System.out.println("Audio is paused.");
 	}
+	@Override
 	public void next() {
 		System.out.println("Song is changed. ");
 	}
