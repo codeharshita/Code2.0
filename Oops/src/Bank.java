@@ -1,5 +1,5 @@
 //Abstraction is meant to be inherited.
-//Abstract Class
+//Abstract Class can have abstarct method and non-abstract method.
 public abstract class Bank {
 	
 	//Abstract method-> A method without body
