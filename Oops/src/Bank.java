@@ -1,4 +1,4 @@
-
+//Abstraction is meant to be inherited.
 //Abstract Class
 public abstract class Bank {
 	
