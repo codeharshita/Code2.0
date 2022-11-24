@@ -21,6 +21,8 @@ public class ObjectCreation2 {
 //	Utensils obj = Utensils.class.newInstance();
 		
 		
+		//.forName is used for loading the class.
+		
 		@SuppressWarnings("deprecation")
 		Utensils obj1= (Utensils)Class.forName("JavaBasics.Utensils").newInstance();
 		System.out.println(obj1.color);
