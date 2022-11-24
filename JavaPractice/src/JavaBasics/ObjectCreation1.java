@@ -21,11 +21,14 @@ public class ObjectCreation1 {
 	public static void main(String[] args) {
 		// Type-1 Created object by using new keyword.
 		Furniture f =  new Furniture();
+		System.out.println(f);
 		System.out.println(f.name);
 		System.out.println(f.wheels);
 		System.out.println(f.color);
 		f.changeColorSofa();
 		
+		f.wheels=6;
+		System.out.println(f.wheels);
 		
 		
 
