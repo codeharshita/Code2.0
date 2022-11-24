@@ -22,7 +22,11 @@ public class ObjectCreation2 {
 		
 		
 		//.forName method is used for loading the class and .newInstanceMethod is used for creation of object. 
+		/*.forName method is a static method which is present in Java.lang package in class Class itself
+		 * */
 		
+		/*@SupressWarnings annotations are the warnings which are ignored by the compiler.
+		 * */
 		@SuppressWarnings("deprecation")
 		Utensils obj1= (Utensils)Class.forName("JavaBasics.Utensils").newInstance();
 		System.out.println(obj1.color);
