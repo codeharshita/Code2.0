@@ -21,7 +21,7 @@ public class ObjectCreation2 {
 //	Utensils obj = Utensils.class.newInstance();
 		
 		
-		//.forName is used for loading the class.
+		//.forName method is used for loading the class and .newInstanceMethod is used for creation of object. 
 		
 		@SuppressWarnings("deprecation")
 		Utensils obj1= (Utensils)Class.forName("JavaBasics.Utensils").newInstance();
