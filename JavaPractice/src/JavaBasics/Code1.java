@@ -5,7 +5,9 @@ import java.util.*;
 
 public class Code1 {
 	
-	public static int printSum(int num1, int num2) {
+	public  int printSum(int num1, int num2) { 
+		
+		//logic
 			return num1+num2;
 	}
 
@@ -16,7 +18,9 @@ public class Code1 {
 		System.out.println("Enter the second number.");
 		int num2 = sc.nextInt();
 		
-		System.out.println("The sum is "+printSum(num1, num2));
+		Code1 c  = new Code1();
+		System.out.println("The result is "+c.printSum(num1, num2));
+		
 		sc.close();
 		
 		
