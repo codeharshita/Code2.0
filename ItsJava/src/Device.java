@@ -15,7 +15,7 @@ class NewCalc extends Calculator{
 	
 	@Override
 	public  int  calculateSum(int num1, int num2) {
-		return num1+num2;
+		return num1-num2; // Changed to subtraction.
 	}
 	
 }
@@ -33,6 +33,9 @@ public class Device {
 		System.out.println(m.calculateSum(4, 5));
 		System.out.println(m.name+" "+m.color);
 		System.out.println(m.buttons+ " "+ m.battery);
+		
+		NewCalc j = new NewCalc();
+		System.out.println(j.calculateSum(78, 76));
 		
 		
 		
