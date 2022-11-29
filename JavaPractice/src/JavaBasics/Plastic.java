@@ -39,6 +39,16 @@ public class Plastic {
 		Sprite.printLabel();
 	
 		s.speakSpriteTag();
+		
+		
+		Bottle b =  new Bottle();
+		System.out.println(b.color+" "+b.cover+" "+ b.shape);
+		
+		Bottle m = new Sprite();
+		
+		System.out.println(m.shape);
+		
+		
 
 	}
 
