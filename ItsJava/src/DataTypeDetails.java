@@ -14,6 +14,12 @@ public class DataTypeDetails {
 		System.out.println(Integer.toBinaryString(y));
 		//here integer is a wrapper class which consist of a method to convert bytr data into binary 
 		// string.
+		
+		int m= 5;
+		int z = 4;
+		
+	int c = m+z;
+	System.out.println(c);
 
 	}
 
