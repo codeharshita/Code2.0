@@ -9,7 +9,7 @@ interface TestNew{
 	}
 	
 }
-
+ 
 
 public class InterfacePractice {
 
