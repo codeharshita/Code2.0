@@ -15,7 +15,8 @@ public class InterfacePractice {
 
 	public static void main(String[] args) {
 		System.out.println(TestNew.X);
-		TestNew.meth3();;
+		TestNew.meth3();
+		
 
 	}
 
