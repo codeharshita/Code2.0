@@ -4,7 +4,6 @@ class Animal{
 	
 	//Non-static class.
 	class Mammal{
-		int legs = 5;
 		public void display() {
 			System.out.println("I am a Mammal.");
 		}
@@ -57,8 +56,9 @@ public class Creature {
 		
 		//Accessing the inner non-static class
 		Animal a2 = new Animal();
-		Animal.Mammal m2 = Animal.new Mammal();
-		
+     	Animal.Mammal mammal =  a2.new Mammal();
+		//Animal.Mammal m1 =  a2.new Mammal();
+	
 		
 		
 		
