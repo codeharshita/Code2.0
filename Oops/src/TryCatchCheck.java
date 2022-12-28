@@ -37,6 +37,9 @@ public class TryCatchCheck {
 			System.out.println("Enter valid number."+ e.getMessage()+" "+ e);
 			
 			//Finally block always executes in the end.
+			
+			//  For each try block there can be only one finally block.
+			 
 		}finally {
 			System.out.println("Program is executed.");
 		}
