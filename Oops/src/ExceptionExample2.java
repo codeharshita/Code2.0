@@ -7,19 +7,25 @@ public class ExceptionExample2 {
 		int A[] = {30,20,10,0};
 		
 		try {
-		int res = A[0]/A[4];
+		int res = A[0]/A[1];
 		System.out.println("The result is "+ res);
-//		int res2 = A[0]/A[4];
-//		System.out.println(res2);
+		
+		try {
+		int res2 = A[0]/A[4];
+		System.out.println(res2);
+		}
+		catch(ArrayIndexOutOfBoundsException e) 
+		{
+			System.out.println("Invalid element.");
+		}
+		
+		
 		}
 		catch(ArithmeticException e) 
 		{
 			System.out.println("Invalid"+ e.getMessage());
 		}
-		catch(ArrayIndexOutOfBoundsException e) 
-		{
-			System.out.println("Invalid element.");
-		}finally 
+		finally 
 		{
 			System.out.println("Program is executed.");
 		}
