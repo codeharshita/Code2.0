@@ -18,6 +18,8 @@ public class TryCatchCheck {
 		TryCatchCheck.display();
 		
 		
+		
+		
 		try {
 			int arr[] = {1,3,5,7};
 			int a =arr[0];
