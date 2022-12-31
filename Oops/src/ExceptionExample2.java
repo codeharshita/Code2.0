@@ -17,6 +17,7 @@ public class ExceptionExample2 {
 		catch(ArrayIndexOutOfBoundsException e) 
 		{
 			System.out.println("Invalid element.");
+			//e.printStackTrace();
 		}
 		
 		
@@ -24,6 +25,7 @@ public class ExceptionExample2 {
 		catch(ArithmeticException e) 
 		{
 			System.out.println("Invalid"+ e.getMessage());
+			
 		}
 		finally 
 		{
