@@ -4,6 +4,7 @@ public class ExceptionExample2 {
 	public static void main(String[] args) {
 		
 		
+		
 		int A[] = {30,20,10,0};
 		
 		try {
