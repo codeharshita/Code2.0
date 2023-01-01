@@ -18,7 +18,7 @@ public class ExceptionExample3 {
 		
 		}
 		//Multi-catch block handling.
-		catch(ArithmeticException |InputMismatchException e ) {
+		catch(ArithmeticException | InputMismatchException e ) {
 			System.out.println(e);
 			
 		}
