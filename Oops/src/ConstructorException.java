@@ -17,6 +17,7 @@ class Kid{
 public class ConstructorException {
 
 	public static void main(String[] args) {
+		//While creating an object an exception can occur here too.
 		try {
 		Kid kid1 = new Kid();
 		}
