@@ -25,8 +25,10 @@ public class UserDefinedException {
 		if(num == 2) {               // Custom message.
 			throw new HarshitaException("This is Harshita Exception.");
 		}
-		//ex is an object which belong to HarshitaException Class.
-		}catch(HarshitaException ex) {
+		//ex is an object which belong to HarshitaException Class. 
+		}
+		catch(HarshitaException ex)
+		{
 			System.out.println(ex.getMessage());
 		}
 		sc.close();
