@@ -10,6 +10,7 @@ public class ExceptionHandling4 {
 		int m = sc.nextInt();
 		
 		if(m == 3 ) {
+			//explicitly calling an exception.
 			throw new ArithmeticException("Error in the input.");
 		}
 		
