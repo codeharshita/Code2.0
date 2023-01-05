@@ -23,7 +23,7 @@ public class LangDemo {
 		System.out.println(obj3.equals(obj2));
 		
 		MyObject o1 = new MyObject();
-		System.out.println(o1.toString());
+		System.out.println(o1.toString()); 
 
 	}
 
