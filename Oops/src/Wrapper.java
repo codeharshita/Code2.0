@@ -1,4 +1,9 @@
-
+/**
+ * Wrapper is also known as Wrapping or boxing 
+ * It is used to convert Primitive types to objects through classes or vice-versa.
+ * 
+ * It is divided into two types :- AutoBoxing and Unboxing.
+ * */
 public class Wrapper {
 
 	public static void main(String[] args) {
