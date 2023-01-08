@@ -11,7 +11,7 @@ public class CollectionFrame1 {
 		System.out.println("Before Cloning "+ arrayList);
 		
 		@SuppressWarnings("unchecked")//WHY?
-		//Clone is a method in arrayList which is used to create a shallow copy of the previous defined arrar.
+		//Clone is a method in arrayList which is used to create a shallow copy of the previous defined array.
 		// There will be no changes in the cloned arrayList if you modify something from the original array. 
 		ArrayList<String> arrayListClone = (ArrayList<String>)arrayList.clone();
 		System.out.println("After Cloning "+ arrayListClone);
