@@ -7,6 +7,13 @@ public class CollectionFrame1 {
 		arrayList.add("Elephant");
 		arrayList.add("Tiger");
 		arrayList.add("Cheetah");
+		arrayList.clear();
+		
+		System.out.println(arrayList.get(2));
+		System.out.println(arrayList);
+		System.out.println(arrayList.getClass());
+		//arrayList.ensureCapacity(4);
+		System.out.println(arrayList);
 		
 		System.out.println("Before Cloning "+ arrayList);
 		
