@@ -6,6 +6,7 @@ class Greeting{
 
 class India{
 	//Anonymous class calling .
+	//Here, anonymous class is the subclass of Greeting. (OBSERVE->NO-NAME)
 	Greeting g = new Greeting() {
 	public void sayHello() {
 		System.out.println("Namaste India.");
