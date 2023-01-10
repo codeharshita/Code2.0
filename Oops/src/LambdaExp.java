@@ -13,6 +13,13 @@ interface MyNewLambda{
 	public int sum(int a , int b);
 }
 
+interface PrintThis{
+	public void print(String s);
+}
+
+interface SumIt{
+	public int add(int c ,int d);
+}
 
 /*class World implements MyLambda{
 	public void display() {
@@ -39,6 +46,15 @@ public class LambdaExp {
 		//m1.sum(3,2);
 		System.out.println(m1.sum(3, 2));
 		
+		PrintThis ptr =(s)->{
+			System.out.println(s);
+		};
+		
+		System.out.println("Hello, I am Lambda Expression.");
+		
+		SumIt sn = (a,b)->a+b;
+		int r = sn.add(30,20);
+		System.out.println(r);
 		
 
 	}
