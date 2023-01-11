@@ -31,6 +31,23 @@ public class Wrapper {
 		System.out.println("***************************");
 		Float f =Float.valueOf(3.4f);
 		System.out.println(f);
+		
+		//Autoboxing :- Converting primitive data type into Wapper class object.
+		System.out.println("AUTOBOXING");
+		int k = 2;
+		Integer h = k;
+		System.out.println(h);
+		
+		//Unboxing:- Converting Wrapper class object(data) into primitive data type.
+		
+		System.out.println("UNBOXING.");
+		Integer  var1 = new Integer(19);
+		int var2 = var1;
+		System.out.println(var2);
+		
+		
+		
+		
 	}
 
 }
