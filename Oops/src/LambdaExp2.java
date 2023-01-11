@@ -30,7 +30,7 @@ public class LambdaExp2 {
 		};
 		
 		dm.meth1();
-		//Lambda expressons works only with Functional Interface.
+		//Lambda expressions works only with Functional Interface.
 		printName p =(str)->{
 			return str;
 			
