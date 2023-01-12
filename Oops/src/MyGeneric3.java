@@ -1,4 +1,4 @@
-class MyArray<T>{
+class MyArray<T extends Number>{
 	
 	
 	// Initilaize an array of generic type
@@ -20,15 +20,21 @@ class MyArray<T>{
 }
 
 
+
+
 public class MyGeneric3 {
 
 	public static void main(String[] args) {
-		MyArray<String> myArray = new MyArray<>();
-		myArray.append("This");
-		myArray.append("Is");
-		myArray.append("Me");
+		MyArray<Float> myArray = new MyArray<>();
+		myArray.append(10.3f);
+		myArray.append(29.4f);
+		myArray.append(76.2f);
+		myArray.append(112.1f);
 		
 		myArray.display();
+		
+		
+		 
 
 	}
 
