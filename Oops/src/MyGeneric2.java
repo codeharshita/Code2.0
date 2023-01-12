@@ -31,7 +31,18 @@ public class MyGeneric2 {
 		
 		System.out.println(data.getData());
 		
+		// Generic Type String only.
+		DataNew <String> dataNew= new DataNew<>();
+		dataNew.setData("Blair Bunoto");
+		
+		System.out.println(dataNew.getData());
 
+		// Generic Type Float only.
+		DataNew <Float> dataFloat= new DataNew<>();
+		dataFloat.setData(3.4f);
+		
+		System.out.println(dataFloat.getData());
+		
 	}
 
 }
