@@ -23,6 +23,13 @@ class MyArray<T extends Number>{
 
 
 public class MyGeneric3 {
+	
+	public static <E>void print(E[] list) {
+		for(E x: list) {
+			System.out.println(x);
+		}
+		
+	}
 
 	public static void main(String[] args) {
 		MyArray<Float> myArray = new MyArray<>();
@@ -32,6 +39,8 @@ public class MyGeneric3 {
 		myArray.append(112.1f);
 		
 		myArray.display();
+		
+		print(new String[] {"HII" ,"JAVA", "Language." } ) ;
 		
 		
 		 
