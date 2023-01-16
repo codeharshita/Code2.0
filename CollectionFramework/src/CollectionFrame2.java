@@ -15,14 +15,21 @@ public class CollectionFrame2 {
 		al1.add(0, 999);
 		al1.add(37);
 
-		System.out.println(al1.contains(80));
-		al1.remove(0);
-		System.out.println(al1.size() + " size of arraylist1");
+		// Here we can't use al1[i] xxx
+		// as it is an arraylist use .get(index i)
+		for (int i = 0; i < al1.size(); i++) {
 
-		al2.add(0, 31);
-		System.out.println("LIST" + al2 + al2.size());
+			System.out.println(al1.get(i));
+		}
 
-		System.out.println(al1);
+//		System.out.println(al1.contains(80));
+//		al1.remove(0);
+//		System.out.println(al1.size() + " size of arraylist1");
+//
+//		al2.add(0, 31);
+//		System.out.println("LIST" + al2 + al2.size());
+//
+//		System.out.println(al1);
 
 	}
 
