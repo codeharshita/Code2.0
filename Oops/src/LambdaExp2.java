@@ -1,9 +1,9 @@
 @FunctionalInterface
-interface DemoAno{
+interface DemoAno {
 	public void meth1();
 }
 
-interface printName{
+interface printName {
 	public String print(String name);
 }
 
@@ -13,27 +13,26 @@ interface printName{
 //	}
 //}
 
-
 public class LambdaExp2 {
 
 	public static void main(String[] args) {
-	
+
 //		Abc a = new Abc();
 //		a.meth1();
 //		
 //		System.out.println();
 //		DemoAno dm = new Abc();
 //		dm.meth1();
-		
-		DemoAno dm =()->{
+
+		DemoAno dm = () -> {
 			System.out.println("Hello method");
 		};
-		
+
 		dm.meth1();
-		//Lambda expressions works only with Functional Interface.
-		printName p =(str)->{
+		// Lambda expressions works only with Functional Interface.
+		printName p = (str) -> {
 			return str;
-			
+
 		};
 		System.out.println(p.print("Alexa"));
 	}
