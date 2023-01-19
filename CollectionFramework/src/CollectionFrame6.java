@@ -10,6 +10,9 @@ public class CollectionFrame6 {
 		ll2.add(9);
 		ll2.add(1);
 		ll2.add(7);
+		// elements will be always be pushed first over here then other elements.
+		ll2.push(54);
+		ll2.push(43);
 
 		System.out.println(ll2.peek()); // show the first element , but will not remove
 		System.out.println(ll2.peekFirst()); // also shows the first element, but not remove.
@@ -26,7 +29,7 @@ public class CollectionFrame6 {
 
 //		System.out.println(ll2.push(42));
 //		System.out.println(ll2.addFirst(54));
-		ll2.push(45);
+		//ll2.push(45);
 		System.out.println(ll2.toString());
 	}
 
