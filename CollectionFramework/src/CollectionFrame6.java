@@ -30,6 +30,7 @@ public class CollectionFrame6 {
 //		System.out.println(ll2.push(42));
 //		System.out.println(ll2.addFirst(54));
 		//ll2.push(45);
+		System.out.println(ll2.toArray()); //[Ljava.lang.Object;@3fee733d    ??
 		System.out.println(ll2.toString());
 	}
 
