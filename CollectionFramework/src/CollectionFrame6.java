@@ -23,9 +23,9 @@ public class CollectionFrame6 {
 		}
 
 		System.out.println(" \nPolling: ");
-		System.out.println(ll2.poll());
-		System.out.println(ll2.pollFirst());
-		System.out.println(ll2.pollLast());
+		System.out.println(ll2.poll());//remove the first element.
+		System.out.println(ll2.pollFirst());//also removes the first element.
+		System.out.println(ll2.pollLast());// also removes the last element.
 
 //		System.out.println(ll2.push(42));
 //		System.out.println(ll2.addFirst(54));
