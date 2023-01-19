@@ -2,15 +2,25 @@ import java.util.*;
 public class CollectionFrame5 {
 
 	public static void main(String[] args) {
-		LinkedList <Integer> ll = new LinkedList<>();
+		LinkedList <String> ll = new LinkedList<>();
 		
-		ll.add(34);
-		ll.add(56);
-		ll.addFirst(1);
-		ll.addLast(9);
+		ll.add("Hii");
+		ll.add("I");
+		ll.addFirst("am");
+		ll.addLast("java");
+		
+		System.out.println(ll.size());
+		
+		System.out.println(" polled element "+ll.poll());
+		ll.add(3, "Ruby");
+		System.out.println(ll.contains("am"));	
+		
+		System.out.println("The last element is "+ll.peekLast());// LastBottom element
+		System.out.println("Peeked element "+ll.peek()); // TopMost element
 		
 		
-		for(Integer i : ll)
+		
+		for(String i : ll)
 		System.out.println(i);
 	
 		System.out.println();
