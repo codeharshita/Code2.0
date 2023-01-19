@@ -9,6 +9,8 @@ public class CollectionFrame5 {
 		ll.addFirst("am");
 		ll.addLast("java");
 		
+		
+		
 		System.out.println(ll.size());
 		
 		System.out.println(" polled element "+ll.poll());
