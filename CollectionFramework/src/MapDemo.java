@@ -3,6 +3,7 @@ import java.util.Map.*;
 public class MapDemo {
 
 	public static void main(String[] args) {
+		//TreeMap uses Red-Black tree data structures. Time complexity is O(log n) always.
 	TreeMap<Integer, String> tm = new TreeMap<>(Map.of(0,"A",1,"B",2,"C",3,"D",4,"E"));
 	tm.put(5, "F");
 	tm.put(6, "G");
