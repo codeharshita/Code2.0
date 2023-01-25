@@ -2,7 +2,7 @@ import java.util.*;
 public class LinkedHashDemo {
 
 	public static void main(String[] args) {
-		
+		//In map we can set the limit.
 		//(5)-> for insertion
 		// (5, .75f, true) -> for accessing.
 		LinkedHashMap<Integer, String> lhm = new LinkedHashMap<>(6, .75f,true) {
