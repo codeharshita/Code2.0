@@ -14,6 +14,7 @@ public class MapDemo {
 	tm.pollFirstEntry();
 	
 	System.out.println(tm);
+	
 
 	HashMap<Integer, String> obj = new HashMap<>(Map.of(0,"A",1,"B",2,"C",3,"D",4,"E"));
 	obj.put(9, "Book");

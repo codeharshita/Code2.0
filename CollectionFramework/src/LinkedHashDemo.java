@@ -20,6 +20,8 @@ public class LinkedHashDemo {
 		lhm.put(6, "F");
 		
 		
+		
+		
 		String s= lhm.get(2);
 		s = lhm.get(5);
 		s= lhm.get(1);
