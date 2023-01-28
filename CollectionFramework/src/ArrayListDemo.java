@@ -15,7 +15,13 @@ public class ArrayListDemo {
 		
 		System.out.println(ar.size());
 		
-		
+		ArrayList<String> arr =  new ArrayList<>(List.of("Java", "Python", "Ruby", "C#"));
+		System.out.println(arr);
+		System.out.println(arr.size());
+	
+		ArrayList<Integer> arr2 = new ArrayList<>(List.of(1,4,2,9,78));
+		System.out.println(arr2);
+		System.out.println(arr2.size());
 
 	}
 
