@@ -22,7 +22,7 @@ interface SumIt {
 	public int add(int c, int d);
 }
 
-/*
+/* 
  * class World implements MyLambda{ public void display() {
  * System.out.println("This is my world."); }
  * 
