@@ -28,10 +28,23 @@ public class ArrayListDemo3 {
 		System.out.println(i);
 		
 		ArrayList<Integer> list1 = new ArrayList<Integer>(Arrays.asList(3,8,9,6,5,3));
-		System.out.println(list1+" "+ ar1);
-		list1.removeIf((num)-> num%2==0);
-		System.out.println(list1);
+//		System.out.println(list1+" "+ ar1);
+//		list1.removeIf((num)-> num%2==0);
+//		System.out.println(list1);
 		
+		//Printing subList.
+		ArrayList<Integer> mySubList =new ArrayList<Integer>(list1.subList(1, 4));
+		System.out.println(mySubList);
+		
+		//Convert array to string.
+		
+		ArrayList<String> cricketers = new ArrayList<String> 
+							( List.of("MS Dhoni", "Virat Kohli","Hardik Pandya", "Rishabh Pant", "Akshar Patel"));
+		System.out.println();
+		Object arr[] = cricketers.toArray();
+		for(Object o : arr) {
+			System.out.println(o);
+		}
 		
 	}
 
