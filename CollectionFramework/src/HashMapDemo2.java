@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.Map.Entry;
 public class HashMapDemo2 {
 
 	public static void main(String[] args) {
@@ -7,8 +8,9 @@ public class HashMapDemo2 {
 		codeAnimal.put(2, "Lion");
 		codeAnimal.put(3, "Monkey");
 		codeAnimal.put(4,"Kangaroo");
+		codeAnimal.remove(3);
 		
-		//Iterate the hashMap
+		//Iterate the hashMap over the keys only using keySet();
 		Iterator<Integer> itr = codeAnimal.keySet().iterator();
 		while(itr.hasNext()) {
 			Integer key = itr.next();
@@ -36,6 +38,17 @@ public class HashMapDemo2 {
 			
 			System.out.println("KEY:- "+ key+ ","+ " Val:-"+ val);
 		}
+		
+		System.out.println("**********Entry Set*************");
+		
+		//Iterate the hashMap using the entrySet over the whole pair(set) .
+		Iterator<Entry<Integer,String>> itr1=  codeAnimal.entrySet().iterator();
+		while(itr1.hasNext()) {
+			Entry<Integer, String> myKey = itr1.next();
+			System.out.println("key:-"+ myKey.getKey()+ " " +" value:- "+ myKey.getValue());
+		}
+		System.out.println();
+		codeAnimal.forEach((k, v)-> System.out.println(k+" "+v));
 	}
 
 }
