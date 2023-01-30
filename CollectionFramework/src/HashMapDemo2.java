@@ -48,6 +48,7 @@ public class HashMapDemo2 {
 			System.out.println("key:-"+ myKey.getKey()+ " " +" value:- "+ myKey.getValue());
 		}
 		System.out.println();
+		//using forEach loop
 		codeAnimal.forEach((k, v)-> System.out.println(k+" "+v));
 	}
 
