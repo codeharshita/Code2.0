@@ -22,7 +22,7 @@ class MyClass2 extends Thread {
 public class ThreadTest7 {
 
 	public static void main(String[] args) {
-		MyClass2 obj = new MyClass2(" I AM THREAD");
+		MyClass2 obj = new MyClass2(" I AM THREAD.");
 		obj.start();
 		obj.interrupt();
 
