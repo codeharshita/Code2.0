@@ -2,7 +2,7 @@ class MyClass extends Thread{
 	
 	public MyClass(String name) {
 		super(name);
-		setPriority(Thread.MIN_PRIORITY+2);
+		setPriority(Thread.MIN_PRIORITY+3);
 	}
 }
 public class ThreadTest6 {
