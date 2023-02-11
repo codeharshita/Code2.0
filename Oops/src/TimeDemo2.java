@@ -1,3 +1,4 @@
+//	date and time in java.
 import java.util.*;
 public class TimeDemo2 {
 
