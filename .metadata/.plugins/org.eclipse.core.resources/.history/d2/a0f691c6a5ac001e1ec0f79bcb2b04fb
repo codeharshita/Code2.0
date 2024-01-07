@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>User Form</title>
+</head>
+<body>
+	<form>
+		<label for="userName">User Name:</label>
+		<input type="text" id="userName" name="userName">
+		<label for="pswd">Password: </label><br><br>
+		<input type="password" id="pswd" name="pswd">
+		<label for="btn">Submit</label><br><br>
+		<input type="submit" id="btn" name="btn">
+	</form>
+
+</body>
+</html>

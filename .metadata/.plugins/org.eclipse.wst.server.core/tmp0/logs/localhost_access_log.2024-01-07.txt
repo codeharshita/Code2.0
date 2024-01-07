@@ -1,0 +1,14 @@
+127.0.0.1 - - [07/Jan/2024:10:09:28 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:10:09:29 +0530] "GET /Form_Submission_Basic_Flow/UserForm.html HTTP/1.1" 200 1573
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:10:09:40 +0530] "GET /Form_Submission_Basic_Flow/userSubmit.jsp?userName=Harshita&pswd=123&btn=submit HTTP/1.1" 200 217
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:10:11:00 +0530] "GET /Form_Submission_Basic_Flow/UserFormServlet HTTP/1.1" 200 12
+127.0.0.1 - - [07/Jan/2024:10:13:25 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:10:13:25 +0530] "GET /Form_Submission_Basic_Flow/UserForm.html HTTP/1.1" 200 1574
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:10:13:32 +0530] "GET /Form_Submission_Basic_Flow/UserFormServlet?userName=huj&pswd=656&btn=submit HTTP/1.1" 200 10
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:10:13:55 +0530] "GET /Form_Submission_Basic_Flow/UserForm.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:10:14:05 +0530] "GET /Form_Submission_Basic_Flow/UserFormServlet?userName=Harshita&pswd=1245asdccc&btn=submit HTTP/1.1" 200 22
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:10:14:42 +0530] "GET /Form_Submission_Basic_Flow/UserForm.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:10:14:51 +0530] "GET /Form_Submission_Basic_Flow/UserFormServlet?userName=Harshita&pswd=4566565&btn=submit HTTP/1.1" 200 39
+127.0.0.1 - - [07/Jan/2024:10:17:08 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:10:17:08 +0530] "GET /Form_Submission_Basic_Flow/UserForm.html HTTP/1.1" 200 1575
+0:0:0:0:0:0:0:1 - - [07/Jan/2024:10:17:29 +0530] "POST /Form_Submission_Basic_Flow/UserFormServlet HTTP/1.1" 200 46
